@@ -174,13 +174,15 @@ padding:0;
 /* DISPOSITIVOS MOVILES */
 
   @media (max-width:750px) {
-    .enlaces-menu li a{
+   .enlaces-menu li a{
         font-size: 15px;
-        margin: -17px;
+        margin: -20px;
         transition: 0.3s;
+        padding: 20px;
     }
     .enlaces-menu li {
         margin-top: 20px;
+        margin-left: 5px;
     }
     nav {
         padding: 25px;
@@ -191,6 +193,8 @@ padding:0;
         top: 65px;
         font-size: 45px;
     }
+    .enlaces-menu li a.none {
+        display: none;
 }
 
 /* Animaciones */
